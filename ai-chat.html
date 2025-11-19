@@ -1,13 +1,13 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 
 <head>
-   <head>
    <!-- Required meta tags always come first -->
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
 
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -28,7 +28,7 @@
    </div>
 </header>
 
-
+<body>
    <div>
        <h2>My Classes</h2>
        <h3>Current Quarter</h3>
@@ -124,6 +124,41 @@
        <h3>Stay On Track</h3>
        <p>Never miss an assignment or test date again.</p>
    </div> 
+    <div id="app">
+      <div class="chat-container">
+        <h1>AI Chat Assistant</h1>
+        
+        <div id="chat-display" class="chat-display">
+          <div class="welcome-message">
+            👋 Welcome! Ask me anything to get started.
+          </div>
+        </div>
+
+
+<div class="prompt-section">
+  <p class="prompt-label">💡 Suggested Question Template:</p>
+  <p class="prompt-template" id="prompt-template">Help me understand [topic] for my [class name] class</p>
+  <button id="use-template" class="template-button">Use This Template</button>
+</div>
+
+<div class="input-container">
+  <textarea 
+    id="user-input" 
+    placeholder="Type your question here..."
+    rows="3"
+  ></textarea>
+  <button id="send-button">Send</button>
+</div>
+
+
+        <div id="loading" class="loading" style="display: none;">
+          🤔 Thinking...
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="ai-chat.js"></script>
+</body>     
    
 <footer>
    <div class="container">
@@ -132,7 +167,7 @@
                <h5>Quick Links</h5>
                <ul class="list-unstyled">
                    <li><a href="index.html">Home</a></li>
-                  <li><a href="myclassesnextquarter.html">Next Quarter</a></li>
+                   <li><a href="myclassesnextquarter.html">Next Quarter</a></li>
                    <li><a href="#">Resources</a></li>
                    <li><a href="#">Contact</a></li>
                </ul>
@@ -157,7 +192,4 @@
    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-
-</body>
- 
-</html>
+  </html>

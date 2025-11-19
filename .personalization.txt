@@ -18,24 +18,24 @@ NEXT QUARTER PLANNING (myclassesnextquarter.html)
 
 
 My Classes for Next Quarter:
-- A Block: [Class Name] - [Time]
-- B Block: [Class Name] - [Time] (or Free Period)
-- C Block: [Class Name] - [Time]
-- D Block: [Class Name] - [Time]
-(Add 1st Period if applicable)
+- A Block: Painting - 8:25 - 9:55
+- B1 Block: Choir - 10:00 - 10:45
+- B2 Block: English/Language Arts 8 - 10:45 - 11:30
+- C Block: Literature and Film - 11:35 - 1:45
+- D Block: Social Studies - 1:50 - 3:20
 
 
 Explanation:
-[Write 4-6 sentences about your next quarter schedule:
-- Why did you choose these classes?
-- What are you most looking forward to learning?
-- Which class do you think will be most challenging and why?
-- If you have a free period, how do you plan to use it productively?
-- How will these classes help you reach your academic or career goals?]
+I chose these classes for my optimal quarter because I want to have as little homework as I can have, but lots of fun classes.
+I am most looking forward to learning about how to paint.
+I think Social Studies will be the most challenging class because I will have lots of things to memorize and probably homework every day.
+I don't have a free period, but if I did I would work on any homework for other classes or to get ahead on work for other classes.
+These classes with help me reach my academic goals becasue I am taking my required classes and also taking some classes to to learn more about things I enjoy.
+
 
 
 Free Period Challenge (if applicable):
-[If you have a free period, did you complete the challenge to hide it on mobile? Explain how you implemented it using d-none d-sm-block]
+I don't have a free period.
 
 
 ---
@@ -45,12 +45,10 @@ REFLECTION
 
 
 What I Learned:
-[Write 5-8 sentences reflecting on Module 1:
-- What Bootstrap concepts made sense to you?
-- What was most challenging?
-- How do you feel about your CSS customization?
-- What would you add to JagTrack in the future?
-- How will you use this site for planning next quarter?]
+The Bootstap concepts that made the most sense to me was the row styling. I found it pretty simple to understand how to change the rows to hold different ammounts of classes if I wanted them to.
+The most challenging Bootstrap concept for me was probably all the classes. I accidently deleted one and I was very cofused for why the styling looked different for part of the page.
+I think my CSS customiztion looks good because everything on the webpage seems to go together well.
+I would add more links to JagTrack in the future so it could take me to more resources.
+I will use this site to keep track of my goals for my classes next quarter, so I don't forget what I'm hoping to gain from them.
 
-
-Hours Spent: [Approximate time on this module]
+Hours Spent: about 5.5 hours
