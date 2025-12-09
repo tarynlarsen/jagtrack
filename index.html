@@ -16,71 +16,184 @@
    <title>JagTrack - Your Academic Success Hub</title>
 </head>
 
+
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+  <div class="container">
+      <a class="navbar-brand" href="index.html">
+          <img src="img/ja-initials-bLCg4zbA.svg" height="30" width="30" alt="JA Logo" />
+          JagTrack
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jagtrackNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="jagtrackNavbar">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="myclassesnextquarter.html">Next Quarter</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="aboutme.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="ai-chat.html">AI Chat</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#" id="theme-toggle">
+                      <span id="theme-icon">☀️</span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
 <header class="jumbotron jumbotron-fluid">
-   <div class="row align-items-center">
-  <div class="col-4">
-      <img src="img/ja-logo.svg" alt="Jefferson Academy Logo" />
+  <div class="container">
+      <div class="row">
+          <div class="col text-center">
+              <h1>JagTrack</h1>
+              <h2>Your Academic Success Hub</h2>
+          </div>
+      </div>
   </div>
-  <div class="col">
-      <h1>JagTrack</h1>
-      <h2>Your Academic Success Hub</h2>
-  </div>
-   </div>
 </header>
 
-
    <div>
-       <h2>My Classes</h2>
-       <h3>Current Quarter</h3>
-       <p>Track all your classes, assignments, and deadlines in one place.</p>
+       <h2 class="d-none d-md-block">My Classes</h2>
+       <h3 class="d-none d-md-block">Current Quarter</h3>
+       <p class="d-none d-md-block">Track all your classes, assignments, and deadlines in one place.</p>
    </div>
 
+<div class="container">
+  <div class="row">
+      <div class="d-none d-md-block"class="col">
+          <h2   class="d-block d-md-none" class="text-center">My Current Classes</h2>
+          <hr />
+      </div>
+  </div>
+
+
+  <ul class="nav nav-tabs" id="classTab" role="tablist">
+      <li   class="d-block d-md-none" class="nav-item">
+          <a class="nav-link active" id="a-block-tab" data-toggle="tab" href="#a-block" role="tab">A Block</a>
+      </li>
+      <li   class="d-block d-md-none" class="nav-item">
+          <a class="nav-link" id="b1-block-tab" data-toggle="tab" href="#b1-block" role="tab">B1 Block</a>
+      </li>
+      <li   class="d-block d-md-none" class="nav-item">
+          <a class="nav-link" id="b2-block-tab" data-toggle="tab" href="#b2-block" role="tab">B2 Block</a>
+      </li>
+      <li   class="d-block d-md-none" class="nav-item">
+          <a class="nav-link" id="c-block-tab" data-toggle="tab" href="#c-block" role="tab">C Block</a>
+      </li>
+      <li   class="d-block d-md-none" class="nav-item">
+          <a class="nav-link" id="d-block-tab" data-toggle="tab" href="#d-block" role="tab">D Block</a>
+      </li>
+  </ul>
+
+
+  <div class="tab-content" id="classTabContent"> 
+      <div class="d-block d-md-none" class="tab-pane fade show active" id="a-block" role="tabpanel">
+          <div  class="class-card">
+              <h4  class="d-block d-md-none">A Block: Web Design in HTML & CSS</h4>
+              <h5  class="d-block d-md-none">8:25 AM - 9:55 AM</h5>
+              <p  class="d-block d-md-none">Learning how to use HTML & CSS to build responisve websites. You're looking at one right now!</p>
+              <a href="https://jajags.instructure.com/courses/3438" target="_blank" class="btn btn-primary" class="d-block d-md-none">Go to Canvas →</a>
+          </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="b1-block" role="tabpanel">
+          <div class="class-card">
+              <h4  class="d-block d-md-none">B1 Block: Theatre Arts</h4>
+              <h5  class="d-block d-md-none">10:00 AM - 10:45 AM</h5>
+              <p  class="d-block d-md-none">Learing about what it takes to be in a play, and participating in a play. Includes stuff like memorizing lines, being in costume, and being part of the team.</p>
+              <a href="https://jajags.instructure.com/courses/3265" target="_blank" class="btn btn-primary" class="d-block d-md-none">Go to Canvas →</a>
+          </div>
+      </div>
+       
+
+      <div class="tab-pane fade" id="b2-block" role="tabpanel">
+          <div class="class-card">
+              <h4  class="d-block d-md-none">B2 Block: English/Language Arts 8</h4>
+              <h5  class="d-block d-md-none">10:45 AM - 11:30 AM</h5>
+              <p  class="d-block d-md-none">Learning grammer, reading comprrehension, and writing. Also reading stories and completing work based of the stories.</p>
+              <a href="https://jajags.instructure.com/courses/3249" target="_blank" class="btn btn-primary" class="d-block d-md-none">Go to Canvas →</a>
+          </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="c-block" role="tabpanel">
+          <div class="class-card">
+              <h4  class="d-block d-md-none">C Block: 8th Grade Science</h4>
+              <h5  class="d-block d-md-none">11:35 PM - 1:45 PM</h5>
+              <p  class="d-block d-md-none">Learning about how the world works. Also testing some things to see the results of different things.</p>
+              <a href="https://jajags.instructure.com/courses/3275" target="_blank" class="btn btn-primary" class="d-block d-md-none">Go to Canvas →</a>
+          </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="d-block" role="tabpanel">
+          <div class="class-card">
+              <h4  class="d-block d-md-none">D Block: Geometry Honors</h4>
+              <h5  class="d-block d-md-none">1:50 PM - 3:20 PM</h5>
+              <p  class="d-block d-md-none">Learning how to solve Geometry problems. Also being tested on ability to solve Geometry problems.</p>
+              <a href="https://jajags.instructure.com/courses/3354" target="_blank" class="btn btn-primary"  class="d-block d-md-none">Go to Canvas →</a>
+          </div>
+      </div>
+  </div>
+</div>
 
    <!-- This empty div is where you'll add your Bootstrap schedule in Exercise 2 -->
-    <div class="container">
+<div class="container" >
    <div class="row row-content">
        <div class="col-12 col-md-6 col-lg-3">
            <div class="class-card">
-               <h4>A Block</h4>
-               <h5>Web Design in HTML & CSS</h5>
-               <p>8:25 AM - 9:55 AM</p>
-               <a href="https://jajags.instructure.com/courses/3438" target="_blank">Go to Canvas →</a>
+               <h4 class="d-none d-md-block" >A Block</h4>
+               <h5 class="d-none d-md-block">Web Design in HTML & CSS</h5>
+               <p class="d-none d-md-block">8:25 AM - 9:55 AM</p>
+               <a href="https://jajags.instructure.com/courses/3438" target="_blank" class="d-none d-md-block">Go to Canvas →</a>
            </div>
        </div>
        <div class="col-12 col-md-6 col-lg-3">
            <div class="class-card">
-               <h4>B1 Block</h4>
-               <h5>Theatre Arts</h5>
-               <p>10:00 AM - 10:45 AM</p>
-               <a href="https://jajags.instructure.com/courses/3265" target="_blank">Go to Canvas →</a>
+               <h4 class="d-none d-md-block">B1 Block</h4>
+               <h5 class="d-none d-md-block">Theatre Arts</h5>
+               <p class="d-none d-md-block">10:00 AM - 10:45 AM</p>
+               <a href="https://jajags.instructure.com/courses/3265" target="_blank" class="d-none d-md-block">Go to Canvas →</a>
            </div>
        </div>
        <div class="col-12 col-md-6 col-lg-3">
            <div class="class-card">
-               <h4>B2 Block</h4>
-               <h5>English/Language Arts 8</h5>
-               <p>10:45 AM - 11:30 AM</p>
-               <a href="https://jajags.instructure.com/courses/3249" target="_blank">Go to Canvas →</a>
+               <h4 class="d-none d-md-block">B2 Block</h4>
+               <h5 class="d-none d-md-block">English/Language Arts 8</h5>
+               <p class="d-none d-md-block">10:45 AM - 11:30 AM</p>
+               <a href="https://jajags.instructure.com/courses/3249" target="_blank" class="d-none d-md-block">Go to Canvas →</a>
+           </div>
+       </div> 
+       <div class="col-12 col-md-6 col-lg-3">
+           <div class="class-card">
+               <h4 class="d-none d-md-block">C Block</h4>
+               <h5 class="d-none d-md-block">8th Grade Science</h5>
+               <p class="d-none d-md-block">11:35 PM - 1:45 PM</p>
+               <a href="https://jajags.instructure.com/courses/3275" target="_blank"class="d-none d-md-block" >Go to Canvas →</a>
            </div>
        </div>
        <div class="col-12 col-md-6 col-lg-3">
            <div class="class-card">
-               <h4>C Block</h4>
-               <h5>8th Grade Science</h5>
-               <p>11:35 PM - 1:45 PM</p>
-               <a href="https://jajags.instructure.com/courses/3275" target="_blank">Go to Canvas →</a>
-           </div>
-       </div>
-       <div class="col-12 col-md-6 col-lg-3">
-           <div class="class-card">
-               <h4>D Block</h4>
-               <h5>Geomety Honors</h5>
-               <p>1:50 PM - 3:20 PM</p>
-               <a href="https://jajags.instructure.com/courses/3354" target="_blank">Go to Canvas →</a>
+               <h4 class="d-none d-md-block">D Block</h4>
+               <h5 class="d-none d-md-block">Geomety Honors</h5>
+               <p class="d-none d-md-block">1:50 PM - 3:20 PM</p>
+               <a href="https://jajags.instructure.com/courses/3354" target="_blank" class="d-none d-md-block">Go to Canvas →</a>
            </div>
        </div>
    </div>
-    </div>
+</div>
 
 <div class="container">
    <h3>Quick Links</h3>
@@ -111,6 +224,7 @@
        </div>
    </div>
 </div>
+    </div>
  
    <div>
        <h2>Study Resources</h2>
@@ -124,6 +238,8 @@
        <h3>Stay On Track</h3>
        <p>Never miss an assignment or test date again.</p>
    </div> 
+
+</body>   
    
 <footer>
    <div class="container">
