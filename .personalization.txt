@@ -52,3 +52,24 @@ I would add more links to JagTrack in the future so it could take me to more res
 I will use this site to keep track of my goals for my classes next quarter, so I don't forget what I'm hoping to gain from them.
 
 Hours Spent: about 5.5 hours
+
+---
+
+EXERCISE 2: GOOGLE CALENDAR INTEGRATION
+
+
+Calendar Setup:
+- Did you create a new calendar or use an existing one? 
+I created a new calendar.
+- How many Canvas iCal feeds did you add? 
+1
+- Did you add them individually by course or as one combined feed? 
+I added them as a combined feed.
+
+
+Reflection:
+This calendar will help me stay organized because I can see what my assignments are so I can stay on top of them.
+A challenge I faced when setting up my calander was that my JA assignment calander wasn't displaying.
+I customized the calander appearance by changing the border to black and the background color to gray. I also icreased the calander's width to make it look beter. I did this by just changing a couple values in the calanders CSS.
+Month view works best for me.
+I might add a birthdays calander in the future to keep track of my friends and families birthdays.

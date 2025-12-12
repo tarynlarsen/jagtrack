@@ -12,7 +12,7 @@
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
      <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/style.css" />
    <title>JagTrack - Your Academic Success Hub</title>
 </head>
 
@@ -22,7 +22,7 @@
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
   <div class="container">
       <a class="navbar-brand" href="index.html">
-          <img src="img/ja-initials-bLCg4zbA.svg" height="30" width="30" alt="JA Logo" />
+          <img src="img/ja-logo.svg" height="30" width="30" alt="JA Logo" />
           JagTrack
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jagtrackNavbar">
@@ -98,7 +98,7 @@
 
 
   <div class="tab-content" id="classTabContent"> 
-      <div class="d-block d-md-none" class="tab-pane fade show active" id="a-block" role="tabpanel">
+      <div class="tab-pane fade"  id="a-block" role="tabpanel">
           <div  class="class-card">
               <h4  class="d-block d-md-none">A Block: Web Design in HTML & CSS</h4>
               <h5  class="d-block d-md-none">8:25 AM - 9:55 AM</h5>
@@ -153,7 +153,7 @@
 <div class="container" >
    <div class="row row-content">
        <div class="col-12 col-md-6 col-lg-3">
-           <div class="class-card">
+           <div class="class-card d-none d-md-block">
                <h4 class="d-none d-md-block" >A Block</h4>
                <h5 class="d-none d-md-block">Web Design in HTML & CSS</h5>
                <p class="d-none d-md-block">8:25 AM - 9:55 AM</p>
@@ -161,7 +161,7 @@
            </div>
        </div>
        <div class="col-12 col-md-6 col-lg-3">
-           <div class="class-card">
+           <div class="class-card d-none d-md-block">
                <h4 class="d-none d-md-block">B1 Block</h4>
                <h5 class="d-none d-md-block">Theatre Arts</h5>
                <p class="d-none d-md-block">10:00 AM - 10:45 AM</p>
@@ -169,7 +169,7 @@
            </div>
        </div>
        <div class="col-12 col-md-6 col-lg-3">
-           <div class="class-card">
+           <div class="class-card d-none d-md-block">
                <h4 class="d-none d-md-block">B2 Block</h4>
                <h5 class="d-none d-md-block">English/Language Arts 8</h5>
                <p class="d-none d-md-block">10:45 AM - 11:30 AM</p>
@@ -177,7 +177,7 @@
            </div>
        </div> 
        <div class="col-12 col-md-6 col-lg-3">
-           <div class="class-card">
+           <div class="class-card d-none d-md-block">
                <h4 class="d-none d-md-block">C Block</h4>
                <h5 class="d-none d-md-block">8th Grade Science</h5>
                <p class="d-none d-md-block">11:35 PM - 1:45 PM</p>
@@ -185,7 +185,7 @@
            </div>
        </div>
        <div class="col-12 col-md-6 col-lg-3">
-           <div class="class-card">
+           <div class="class-card d-none d-md-block">
                <h4 class="d-none d-md-block">D Block</h4>
                <h5 class="d-none d-md-block">Geomety Honors</h5>
                <p class="d-none d-md-block">1:50 PM - 3:20 PM</p>
@@ -232,12 +232,27 @@
        <p>Access helpful resources and study guides for all your subjects.</p>
    </div>
 
+   <div class="container">
+  <div class="row row-content">
+      <div class="col">
+          <h2 class="text-center">Calendar & Deadlines📅</h2>
+          <h3 class="text-center">Stay On Track</h3>
+          <p class="text-center">Your Canvas assignments automatically sync to this calendar. Never miss a deadline!</p>
+      </div>
+  </div>
+  <p class="d-block d-md-none text-center">
+  <a href="https://calendar.google.com/calendar/u/0/r/month/2025/12/1" target="_blank" class="btn btn-primary">Open Calendar in New Tab (Better for Mobile)</a>
+</p>
 
-   <div>
-       <h2>Calendar & Deadlines</h2>
-       <h3>Stay On Track</h3>
-       <p>Never miss an assignment or test date again.</p>
-   </div> 
+  <div class="row">
+      <div class="col">
+          <div class="calendar-container">
+                <p>Use this calander to stay on top of your assignments :D</p>
+               <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&showPrint=0&mode=MONTH&src=dGFyeW4ubGFyc2VuQGphamFncy5jb20&src=Y18xYWM3ZmJjMDAwMDIzOTA3ZGUxMTMyMTMzMDg4MmI5ODMyZjEwYTkwNTQxNTI2NzA0YjZkZjk1YWFhZWEwNDc4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=NTlwMHJoYjBvY3VkNXEzb3FzcmxlZHU0bnBiZ2Jjb3VAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237cb342&color=%230b8043&color=%237cb342&color=%230b8043" mode="schedule"  style="border:solid 1px #777" height="600" width="800" frameborder="0" scrolling="no" class="google-calendar-responsive"></iframe>
+          </div>
+      </div>
+  </div>
+</div>
 
 </body>   
    
